@@ -1,0 +1,13 @@
+target/
+report/
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### OS Related ###
+.DS_Store

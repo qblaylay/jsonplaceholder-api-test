@@ -1,5 +1,5 @@
 target/
-report/
+allure-results/
 !**/src/main/**
 !**/src/test/**
 

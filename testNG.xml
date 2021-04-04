@@ -15,6 +15,12 @@
             <class name="com.jsonplaceholder.posts.PostsTest"/>
         </classes>
     </test>
+    <test name="Verify_Comments_Resources">
+
+        <classes>
+            <class name="com.jsonplaceholder.comments.CommentsTest"/>
+        </classes>
+    </test>
 
 
 </suite>

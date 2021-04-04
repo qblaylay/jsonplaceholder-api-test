@@ -25,11 +25,6 @@ jobs:
 
       - run: mvn test
 
-      - run:
-          name: generate allure report
-          command: allure generate allure-results --clean -o allure-report
-          when: always
-
       - allure/report
 
       - store_test_results:

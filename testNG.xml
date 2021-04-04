@@ -9,6 +9,12 @@
             <class name="com.jsonplaceholder.users.UserTest"/>
         </classes>
     </test>
+    <test name="Verify_Post_Resources">
+
+        <classes>
+            <class name="com.jsonplaceholder.posts.PostsTest"/>
+        </classes>
+    </test>
 
 
 </suite>

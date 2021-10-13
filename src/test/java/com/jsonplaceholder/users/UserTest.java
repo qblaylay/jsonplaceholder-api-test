@@ -41,7 +41,7 @@ public class UserTest {
         String username = "Delphine";
         User[] users = userController.retrieveUsersByUsername(username);
 
-        assertThat(users).hasSize(1);
+        assertThat(users).hasSize(11);
         User user = users[0];
         assertThat(user.getUsername()).isEqualTo(username);
         assertThat(user.getId()).isEqualTo(9);
